@@ -8,12 +8,163 @@ body{
 }
 
 
-.section1{
-    widows: 100%;
-    height:40%;
+.header{
+    height:100vh;
     background: url(../img/assets/backgrounds/h_img.jpg) no-repeat center ;
     background-size: cover;
-    color: red;
-
-    
+    width: auto;
+    text-align: center;
+    align-items: center;
+    letter-spacing: none;
+    color: white;  
+    padding-top: 18%;
 }
+
+header > h1{
+    font-size: 40px;
+    font-weight: 800px;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
+.mouse{
+    margin: 130px;
+    padding-top: 5%;
+}
+
+header>img{
+    margin-top: 290px
+}
+
+.about{
+    text-align: center;
+}
+
+.about>h3{
+    margin-top: 40px;
+}
+
+.about > p{
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.services{
+    background-image: url("../img/assets/backgrounds/s_image.jpg");
+    color: white;
+    height: 300px;
+    width: auto;
+    text-align: center;
+}
+
+.services > h3{
+    padding-top: 80px;
+}
+.services > p{
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+h4{
+   text-align: center;
+   font-weight: 700;
+}
+
+.wrk{
+    position: relative;
+    text-align: center;
+}
+
+
+article>.row>.col-md-4>img{
+    padding-top: 10px;
+}
+
+.contacts{
+    background-image: url("../img/assets/backgrounds/c_image.jpg");
+    color: white;
+    height: 500px;
+    width: 100%;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px; 
+    padding-top: 20px;
+}
+
+.col-md-3{
+    padding: 10px;
+}
+
+.portfolio>.top{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    width: 400px;
+    margin: 10px;
+    background: transparent;
+}
+
+textarea{
+    width: 100%;
+    background: transparent;
+}
+
+::placeholder{
+    color: white;
+}
+
+footer > div{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer > div > img{
+    padding: 20px;
+}
+
+.swapin, .swapin1, .swapin2{
+    display: none;
+    margin: 20px;
+}
+
+#text1, #text2, #text3, #text4, #text5, #text6, #text7, #text8{
+    color: white;
+    text-shadow: 3px 3px 8px rgb(122, 122, 112);
+    text-align: center;
+    background: transparent;
+    padding: 10px;
+    font-weight: 800;
+    border: 4px solid rgb(124, 100, 100);
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 4px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+
+.ft-img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.acts{
+    margin: 130px 130px 0px;
+}
+
+
