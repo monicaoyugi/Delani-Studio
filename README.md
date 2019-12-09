@@ -8,9 +8,6 @@ Delani studio is a company that mainly deals with tech for companies. This inclu
 The web page is constructed out of HTML and CSS and Javascript. Also with assistance from their library counterpart i.e Bootstrap and jQuery.
 
 
-
-
-
 ## Contribution
 Created by https://github.com/monicaoyugi
 
