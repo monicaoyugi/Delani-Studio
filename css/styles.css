@@ -4,7 +4,6 @@
 
 body{
     width: 100%;
-
 }
 
 
@@ -25,6 +24,7 @@ header > h1{
     font-weight: 800px;
     padding-bottom: 20px;
     line-height: 1.5;
+    font-family: 'Pacifico', cursive;
 }
 
 .mouse{
@@ -32,12 +32,13 @@ header > h1{
     padding-top: 5%;
 }
 
-header>img{
+header > img{
     margin-top: 290px
 }
 
 .about{
     text-align: center;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .about>h3{
@@ -55,6 +56,7 @@ header>img{
     height: 300px;
     width: auto;
     text-align: center;
+    font-family: 'Bree Serif', serif;
 }
 
 .services > h3{
@@ -68,6 +70,7 @@ header>img{
 h4{
    text-align: center;
    font-weight: 700;
+   font-family: 'Permanent Marker', cursive;
 }
 
 .port{
@@ -85,9 +88,18 @@ article>.row>.col-md-4>img{
     color: white;
     height: 500px;
     width: 100%;
+}
+.project{
+    background-color: rgba(255, 255, 255, 0.623);
+    opacity: 0;
+    width: 200px;
+    height: 230px;
     
 }
-
+.project p{
+    padding-top: 100px;
+    text-align: center;
+}
 #textarea{
 width: 64%;
 }
@@ -107,16 +119,71 @@ h3{
     padding-top: 20px;
 }
 
-.col-md-3{
-    padding: 10px;
+
+
+.wrk-4{
+    background-image: url('../img/assets/portfolio/work4.jpg');
+    background-size: cover;
+    max-width: 240px;
+    height: 230px;
+    margin: 15px;
 }
 
+.wrk-3{
+    background-image: url('../img/assets/portfolio/work3.jpg');
+    background-size: cover;
+    max-width: 240px;
+    height: 230px;
+    margin: 15px;
+}
+.wrk-2{
+    background-image: url('../img/assets/portfolio/work2.jpg');
+    background-size: cover;
+    max-width: 240px;
+    height: 230px;
+    margin: 15px;
+}
+.wrk-1{
+    background-image: url('../img/assets/portfolio/work1.jpg');
+    background-size: cover;
+    max-width: 240px;
+    height: 230px;
+    margin: 15px;
+}
+.wrk-5{
+    background-image: url('../img/assets/portfolio/work5.jpg');
+    background-size: cover;
+    max-width: 240px;
+    height: 230px;
+    margin: 15px;
+}
+.wrk-6{
+    background-image: url('../img/assets/portfolio/work6.jpg');
+    background-size: cover;
+    max-width: 240px;
+    height: 230px;
+    margin: 15px;
+}
+.wrk-7{
+    background-image: url('../img/assets/portfolio/work7.jpg');
+    background-size: cover;
+    max-width: 240px;
+    height: 230px;
+    margin: 15px;
+}
+.wrk-8{
+    background-image: url('../img/assets/portfolio/work8.jpg');
+    background-size: cover;
+    max-width: 240px;
+    height: 230px;
+    margin: 15px;
+}
 
-
-.portfolio>.top{
+.portfolio > .top{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    
 }
 
 .end{
@@ -149,7 +216,7 @@ footer > div > img{
     padding: 20px;
 }
 
-.swapin, .swapin1, .swapin2{
+.click, .click1, .click2{
     display: none;
     margin: 20px;
 }
@@ -181,6 +248,7 @@ footer > div > img{
 
 .acts{
     margin: 130px 130px 0px;
+    font-family: 'Pacifico', cursive;
 }
 
 
