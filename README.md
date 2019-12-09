@@ -1,6 +1,15 @@
 ## Delani Studio
 ___by Monica Oyugi___
 
+## link to site
+
+https://monicaoyugi.github.io/Delani-Studio
+
+## code grade
+
+[![codebeat badge](https://codebeat.co/badges/e64d092f-8109-4585-bdde-77df3f2c4ff5)](https://codebeat.co/projects/github-com-monicaoyugi-delani-studio-master)
+
+
 ## Description
 Delani studio is a company that mainly deals with tech for companies. This includes software development to profile constructing for companies. With their improved and interative landing page, the company is able to gather and inform many of their clients on what to expect to from Delani.
 
