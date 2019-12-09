@@ -4,6 +4,7 @@
 
 body{
     width: 100%;
+    font-family: 'Permanent Marker', cursive;
 }
 
 
@@ -94,6 +95,7 @@ article>.row>.col-md-4>img{
     opacity: 0;
     width: 200px;
     height: 230px;
+    font-family: 'Permanent Marker', cursive;
     
 }
 .project p{
@@ -248,7 +250,7 @@ footer > div > img{
 
 .acts{
     margin: 130px 130px 0px;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Permanent Marker', cursive;
 }
 
 
