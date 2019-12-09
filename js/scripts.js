@@ -1,16 +1,16 @@
 $(document).ready(function(){
     //toggle at design,development and product mgmt
-    $(".toggle1").click(function(){
-      $(".image1").toggle();
-      $(".design").toggle();
+    $(".design").click(function(){
+      $(".show").toggle();
+      $(".click").toggle();
     });
-    $(".toggle2").click(function(){
-      $(".image2").toggle();
-      $(".development").toggle();
+    $(".development").click(function(){
+      $(".show1").toggle();
+      $(".click1").toggle();
     });
-    $(".toggle3").click(function(){
-      $(".image3").toggle();
-      $(".product_mgmt").toggle();
+    $(".product").click(function(){
+      $(".show2").toggle();
+      $(".click2").toggle();
     });
   
     //display white box on hover
